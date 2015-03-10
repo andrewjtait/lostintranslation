@@ -148,6 +148,7 @@ h2 {
 @media(max-device-width:780px) {
   .ampersand {
     clear: both;
+    display: block;
   }
 
   h1 span {
@@ -191,6 +192,10 @@ h2 {
 }
 
 @media(max-device-width:500px) {
+  .top-bar {
+    font-size: 1.2em;
+  }
+
   h1 span {
     margin: 0 0 250px;
   }
@@ -205,16 +210,11 @@ h2 {
   }
 
   h2 {
-    margin: -200px 0 0;
     font-size: 1.2em;
   }
 
-  .trailer {
-    float: left;
-    margin-top: -100px;
-  }
-
   .credits {
-    clear: both;
+    font-size: 0.6em;
+    line-height: 1.6em;
   }
 }
