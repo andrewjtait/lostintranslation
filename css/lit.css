@@ -26,10 +26,11 @@ ul li {
 h1 {
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
-  margin: 0 1%;
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   width: 98%;
+  max-width: 1200px;
 }
 
 h1 span {
@@ -117,6 +118,7 @@ h2 {
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
   width: 80%;
+  max-width: 1200px;
 }
 
 .credits a {
