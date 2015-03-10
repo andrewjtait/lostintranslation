@@ -3,6 +3,7 @@ $(document).ready(function() {
 
   title.lettering();
   title.fitText(1.75);
+  $(".trailer-wrap").fitVids();
 
   if ($('.ampersand').css('clear') != 'both') {
     handleDesktop();
