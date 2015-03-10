@@ -43,9 +43,11 @@ $(document).ready(function() {
             modifiers = [2.5, -0.5, 4, -5.5, 0, -4, 1.5, 0, 4.5, -2.5, 2, 3, -1, -6, 5, 4.5, -3.5, -3, 2.5, 0];
 
         modifiers.forEach(function(mod) {
-          c = $('.char' + i);
-          c.css('margin-top', rotationY * mod);
-          c.css('margin-bottom', rotationY * (mod * -1));
+          if (mod != 0) {
+            c = $('.char' + i);
+            c.css('margin-top', rotationY * mod);
+            c.css('margin-bottom', rotationY * (mod * -1));
+          }
           i++;
         });
 
