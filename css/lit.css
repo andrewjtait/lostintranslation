@@ -176,15 +176,19 @@ h2 {
     animation:fadeout 0.5s;
     animation-delay: 4s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     -moz-animation:fadeout 0.5s;
     -moz-animation-delay: 4s;
     -moz-animation-iteration-count: 1;
+    -moz-animation-fill-mode: forwards;
     -webkit-animation:fadeout 0.5s;
     -webkit-animation-delay: 4s;
     -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
     -o-animation:fadeout 0.5s;
     -o-animation-delay: 4s;
     -o-animation-iteration-count: 1;
+    -o-animation-fill-mode: forwards;
   }
 
   @-webkit-keyframes fadeout {
@@ -217,5 +221,6 @@ h2 {
 
   .credits {
     font-size: 0.6em;
+    margin: 100px auto;
   }
 }
