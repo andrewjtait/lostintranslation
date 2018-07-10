@@ -4,4 +4,4 @@ A poster built in HTML/CSS/JS.
 
 Uses different implementations of parallax depending on your device. On desktop it is based on scroll, on a mobile it is based on device motion.
 
-See a demo: http://www.andrewjamestait.co.uk/lostintranslation/
+See a demo: http://andrewjtait.github.io/lostintranslation/
